@@ -1,0 +1,49 @@
+.image img{
+    height: 178px;
+}
+.media{
+    margin-bottom: 20px;
+}
+figure{
+    align-items: center;
+}
+
+img{
+    height: 50px;
+}
+
+.hero{
+    margin-bottom: 20px;
+}
+.results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    
+}
+
+.dropdown-item img {
+    /* height: 50px; */
+    margin-right: 10px;
+}
+.notification{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    height: 135px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
+}
